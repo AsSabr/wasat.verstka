@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'Uthman Naskh';
+	src: local('KFGQPC Uthman Taha Naskh'),
+		url('../fonts/Uthmanic/UthmanTN1Ver10.otf'),
+		url('../fonts/Uthmanic/UthmanTN1Ver10.woff') format('woff'),
+		url('../fonts/Uthmanic/UthmanTN1Ver10.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Serif+Caption&display=swap');
+
+@font-face {
+	font-family: 'Font Awesome 5 Brands';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/fontawesome/webfonts/fa-brands-400.eot');
+	src: url('../fonts/fontawesome/webfonts/fa-brands-400.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/fontawesome/webfonts/fa-brands-400.woff2') format('woff2'),
+		url('../fonts/fontawesome/webfonts/fa-brands-400.woff') format('woff'),
+		url('../fonts/fontawesome/webfonts/fa-brands-400.ttf') format('truetype'),
+		url('../fonts/fontawesome/webfonts/fa-brands-400.svg#fontawesome')
+			format('svg');
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Free';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/fontawesome/webfonts/fa-regular-400.eot');
+	src: url('../fonts/fontawesome/webfonts/fa-regular-400.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/fontawesome/webfonts/fa-regular-400.woff2') format('woff2'),
+		url('../fonts/fontawesome/webfonts/fa-regular-400.woff') format('woff'),
+		url('../fonts/fontawesome/webfonts/fa-regular-400.ttf') format('truetype'),
+		url('../fonts/fontawesome/webfonts/fa-regular-400.svg#fontawesome')
+			format('svg');
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Free';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/fontawesome/webfonts/fa-solid-900.eot');
+	src: url('../fonts/fontawesome/webfonts/fa-solid-900.eot?#iefix')
+			format('embedded-opentype'),
+		url('../fonts/fontawesome/webfonts/fa-solid-900.woff2') format('woff2'),
+		url('../fonts/fontawesome/webfonts/fa-solid-900.woff') format('woff'),
+		url('../fonts/fontawesome/webfonts/fa-solid-900.ttf') format('truetype'),
+		url('../fonts/fontawesome/webfonts/fa-solid-900.svg#fontawesome')
+			format('svg');
+}
+
+$Merriweather: 'Merriweather', serif;
+$PTSerifCaption: 'PT Serif Caption', serif;
+$UthmanNaskh: 'Uthman Naskh', sans-serif;
